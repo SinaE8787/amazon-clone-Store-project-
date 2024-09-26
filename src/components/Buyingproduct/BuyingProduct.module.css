@@ -1,0 +1,79 @@
+.ProductBuyComponnet{
+    width: 100%;
+    height: 21.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1.5rem 0 2.2rem 0;
+    border-bottom:1px solid rgb(203, 213, 225) ;
+}
+.imgProduct{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0rem ;
+    text-decoration: none;
+}
+.imgProduct .GoProductPage{
+    width: 80%;
+}
+.imgProduct img{
+  width:100% ;
+  height: 15rem;
+}
+.ProductInfo{
+    width: 37rem;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.ProductInfo h2{
+   font-weight: 600;
+}
+.ProductInfo p{
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+.Gift{
+    display: flex;
+    gap: .6rem;
+    font-size: .9rem;
+}
+.colorName{
+    display: flex;
+    gap: .5rem;
+}
+.colorName h3{
+    font-weight: 600;
+}
+.addAndDelete{
+    display: flex;
+}
+.SaveShare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addAndDelete .space{
+    color: rgba(187, 187, 187, 0.875);
+    margin: 0 .75rem;
+    transform: scale(.9);
+}
+.price{
+    display: flex;
+    width: 12%;
+}
+.price i{
+    font-size: 1.2rem;
+}
+.price h2{
+  font-weight: 600;
+}
+@media (max-width : 1350px){
+    .SaveShare{
+        display: none;
+    }
+}

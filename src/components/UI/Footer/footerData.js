@@ -1,0 +1,41 @@
+const lists = [
+    [
+      { id: 0 , text: "Get to Know Us" },
+      { id: 1, text: "Careers" },
+      { id: 2, text: "Blog" },
+      { id: 3, text: "About Amazon" },
+      { id: 4, text: "Investor Relations" },
+      { id: 5, text: "Amazon Devices" },
+      { id: 6, text: "Amazon Science" },
+    ],
+    [
+      { id: 0, text: "Make Money with Us" },
+      { id: 1, text: "Sell products on Amazon" },
+      { id: 2, text: "Sell on Amazon Business" },
+      { id: 3, text: "Sell apps on Amazon" },
+      { id: 4, text: "Become an Affiliate" },
+      { id: 5, text: "Advertise Your Products" },
+      { id: 6, text: "Self-Publish with Us" },
+      { id: 7, text: "Host an Amazon Hubs" },
+      { id: 8, text: "See More Make Money with Us" },
+    ],
+    [
+      { id: 0, text: "Amazon Payment Products" },
+      { id: 1, text: "Amazon Business Card" },
+      { id: 2, text: "Shop with Points" },
+      { id: 3, text: "Reload Your Balance" },
+      { id: 4, text: "Amazon Currency Converter" },
+    ],
+    [
+      { id: 0, text: "Let Us Help You" },
+      { id: 1, text: "Amazon and COVID-19" },
+      { id: 2, text: "Your Account" },
+      { id: 3, text: "Your Orders" },
+      { id: 4, text: "Shipping Rates & Policies" },
+      { id: 5, text: "Returns & Replacements" },
+      { id: 6, text: "Manage Your Content and Devices" },
+      { id: 7, text: "Amazon Assistant" },
+      { id: 8, text: "Help" },
+    ],
+  ];
+  export default lists

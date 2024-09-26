@@ -1,0 +1,292 @@
+.ProductPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.TopPageImg{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+.ProductPageData{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+}
+
+
+/* ////////////////stickyImg\\\\\\\\\\\\\ */
+.imgProduct{
+    min-width: 38%;
+    flex: 1;
+    padding: 0 0 0 4rem;
+    position: relative;
+}
+.imgProduct .stickyBox{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 28rem;
+    padding: 0 5rem;
+}   
+.imgProduct .stickyBox img{
+    width: 100%;
+    height: 100%;
+}
+/* ////////////////shopCart\\\\\\\\\\\\\\\\\ */
+.shoppingBox{
+    width: 29%;
+    height: 100%;
+    padding: 0rem 1.5rem 3rem 11rem;
+}
+/* //////////////////productInfo\\\\\\\\\\\\\\\\\\\\ */
+.productInfo{
+    width: 43%;
+    height: 100%;
+    display: flex;
+    gap: .3rem;
+    flex-direction: column;
+}
+.NameAndRate{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    padding-bottom: .7rem;
+    border-bottom: 1px solid rgba(203, 213, 225, 0.844);
+}
+.NameAndRate p{
+    width: 95%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: .4rem;
+}
+.NameAndRate a{
+    text-decoration:none ;
+    font-size: .9rem;
+}
+.NameAndRate a:hover{
+    text-decoration: underline;
+}
+.NameAndRate .star{
+    display: flex;
+    align-items: center;
+    padding-bottom: .2rem;
+    transform: scale(1.1);
+}
+.NameAndRate .Rate{
+    display: flex;
+    width: 21rem;
+    gap: .5rem;
+}
+.NameAndRate .Rate .rateLinks{
+    display: flex;
+    gap: .5rem;
+    padding-left: .5rem;
+}
+.NameAndRate .sells{
+    font-size: .75rem;
+    line-height: 1rem;
+    color: rgba(15, 17, 17, 0.802);
+}
+/* ////////////////\\\\\\\\\ */
+.PriceAndOffer{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    font-size: .9rem;
+    padding-bottom: .7rem;
+    border-bottom: 1px solid rgba(203, 213, 225, 0.844);
+}
+.PriceAndOffer .Price{
+    display: flex;
+    align-items: center;
+}
+.PriceAndOffer .Price h1{
+    display: flex;
+    align-items: start;
+    font-weight: 600;
+}
+.PriceAndOffer .Price span{
+  color: gray;
+  font-size: .8rem;
+  margin-top: .5rem;
+}
+.PriceAndOffer .Price h2{
+    color: red;
+    font-weight: normal;
+    margin-right: .5rem;
+}
+.PriceAndOffer .lastPrice{
+    font-size: .75rem;
+    color: rgb(125, 125, 125);
+}
+.PriceAndOffer .lastPrice span{
+    text-decoration:line-through;
+    padding-left: .2rem;
+}
+.nonExisten{
+    color: rgb(210, 3, 3);
+    text-shadow: 1px 1px 20px red;
+    padding: 2rem 0 ;
+    border-bottom: 1px solid rgba(203, 213, 225, 0.844);
+}
+.Paragraphs{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.PriceAndOffer .paragrph1 , .paragrph2{
+ display: flex;
+ align-items: center;
+}
+.paragrph1{
+    position: relative;
+}
+.paragrph1 i{
+    font-size: .8rem;
+    padding-right: .2rem;
+}
+.paragrph2 .orengeBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .1rem;
+    height: 1.4rem;
+    font-size: .8rem;
+    padding: .1rem ;
+    margin-right: .2rem;
+    color: white;
+    background-color: rgba(237, 169, 58, .9);
+}
+.paragrph2 span:hover{
+    color: red;
+}
+/* /////////////////////////Dropdowns\\\\\\\\\\\\\\\\ */
+.arrow{
+position: absolute;
+top: 1.5rem;
+width: 2rem;
+height: 2rem;
+transform: rotateZ(45deg);
+background-color: #94a3b8;
+border: 4px solid #94a3b8;
+z-index: 5;
+}
+.taxDropdown{
+    position: absolute;
+    top: 1.6rem;
+    right: 13rem;
+    width: 15rem;
+    height: 9rem;
+    padding: 1rem .7rem;
+    border: 1px solid #94a3b8;
+    border-radius: .3rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 6px #8aa7cf , 0px 8px 15px rgba(0, 0, 0, 0.373);
+    z-index: 10;
+}
+.closebtn{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .7rem;
+    border-bottom: 1px solid #94a3b87f;
+}
+.closebtn i{
+    font-size: 1.1rem;
+    cursor: pointer;
+    
+}
+.priceAndDeliver{
+    margin-top: .6rem;
+    border-bottom: 1px solid #94a3b87f;
+}
+.priceAndDeliver div{
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 1rem;
+margin: .2rem;
+}
+.priceAndDeliver div span:first-child{
+    color:#818994 ;
+}
+.total{
+    padding-top: .3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+/* /////////////////////\\\\\\\\\\\\\\ */
+.ProductDetails{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    font-size: .9rem;
+    font-weight: 600;
+    padding-bottom: .7rem;
+    border-bottom: 1px solid rgba(78, 78, 78, 0.844);  
+}
+.ProductDetails h3{
+font-weight: normal;
+margin-top: .5rem;
+}
+.ProductDetails ul{
+    height: 9.5rem;
+    overflow: hidden;
+    transition-duration: .5s;
+}
+.SeeMoreDetails ul{
+    height: 18.5rem;
+    transition-duration: .5s;
+}
+.ProductDetails li{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: .5rem;
+}
+.ProductDetails li span{
+    width: 50%;
+}
+/* /////////////////\\\\\\\\\\\\\\ */
+.AboutItem{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0 2rem .7rem 0;
+    border-bottom: 1px solid rgba(78, 78, 78, 0.844);
+}
+.AboutItem h3{
+ font-weight: 600;
+ padding: 1rem 0 .7rem 0;
+}
+.AboutItem ul{
+    padding-left: 1.5rem;
+    overflow: hidden;
+    height: 24.5rem;
+    transition-duration: .5s;
+}
+.SeeMoreAbout ul{
+    height: 31.5rem;
+    transition-duration: .5s;
+}
+.Note{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: .4rem;
+}

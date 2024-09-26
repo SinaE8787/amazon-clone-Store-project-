@@ -1,0 +1,427 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 11;
+  }
+  .mesal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.609);
+    z-index: 0;
+  }
+  .topHead{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    color: white;
+    height: 3.5rem;
+    background-color: #131921;
+    z-index: 2;
+  }
+  .topHead div , .nav{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  .topHead div{
+    padding: .5rem;
+  }
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   padding-top:1rem !important;
+   margin-right: 1.3rem;
+}
+  
+  .searchBox {
+    height: 2.5rem;
+    margin: 0 1rem;
+    min-width: 200px;
+    border-radius: .2rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .searchInput {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  .onfocus{
+    height: 2.7rem;
+    padding: .2rem ;
+    background-color: rgb(255, 145, 48);
+  }
+  .onfocus input {
+    border: 1px solid rgba(0, 0, 0, 0.382);
+  }
+  .onfocus .searchButton:hover{
+    background-color: #38271ac6;
+    
+  }
+  
+  .searchButton {
+    background-color: #febd69;
+    width: 2.5rem;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .searchButton:hover{
+    background-color: #febd69c6;
+    border: 1px solid #febd69;
+  }
+  
+  
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav img{
+    width: 1.7rem;
+    height: 1.5rem;
+  }
+  .homeProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .profile{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #131921 !important;
+    font-size: 1.1rem;
+    padding: .5rem;
+    margin: .2rem;
+    border-radius: 50%;
+  }
+  .option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .option:hover{
+    border: 1px solid white;
+    border-radius: .2rem;
+  }
+  .option i{
+    color: gray;
+    font-size: .9rem;
+  }
+  .option:first-child{
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+  }
+  .optionLineOne {
+   font-size: 13px;
+  }
+  
+  .optionLineTwo {
+    font-weight: 800;
+    font-weight: bold;
+  }
+  
+  .Basket {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ff9b29;
+  }
+  .Basket:hover{
+    border: 1px solid white;
+    border-radius: .2rem;
+  }
+  .Basket span{
+    position: absolute;
+    font-size: 1.05rem;
+    top: .5rem;
+  }
+  .Basket img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  @media (max-width: 900px) {
+    .logo{ 
+      width: 7rem;
+      margin-right: 0;
+    }
+    .logo img{
+      width: 100%;
+    }
+   .option{
+    display: none !important;
+   }
+   }
+
+  
+/* ///////////////////////bottomHead\\\\\\\\\\\\\\\\\\\\ */
+.bottomHead{
+    width: 100%;
+    height: 2.5rem;
+    padding-left: .5rem;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1;
+    
+}
+.bottomHead span{
+    transition-duration: .3s;
+}
+.bottomHead span:hover{
+ height: 100%;
+ padding: .5rem;
+ border: 1px solid white;
+ border-radius: .2rem;
+ border-bottom: none;
+}
+@media (max-width : 550px){
+  .spandecory{
+    display: none;
+   }
+}
+/* ?/////////////////////offcanvase\\\\\\\\\\\\\\\\\\\\\\ */
+
+.offcanvas , .subOffcanvas{
+  top: 0;
+  width: 365px;
+  height: 100%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: left 0.5s ease;
+}
+.offcanvas {
+  position: fixed;
+    left: -365px;
+    z-index: 1002;
+  }
+.subOffcanvas {
+  position: absolute;
+    left: 615px;
+    z-index: 1003;
+  } 
+  .show , .showSubMenu {
+    left: 0;
+  }
+  .userProfile{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    background-color: #232f3e;
+    padding: .8rem 2rem;
+    gap: .8rem;
+  }
+  .usericon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:1.7rem;
+    height: 1.7rem;
+    background-color: white;
+    color: #232f3e;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .menuButton {
+    padding: 10px 15px;
+  }
+  .menuContent {
+    position: relative;
+    margin-top: 0;
+    height: 100%;
+    padding-bottom: 5rem;
+    overflow: auto;
+  }
+  .menuContent ul {
+    list-style: none;
+    padding: 1.5rem 0 0 0 ;
+  }
+  .menuContent ul:not(:last-child){
+    border-bottom: 2px solid rgba(0, 0, 0, 0.097);
+  }
+  .menuContent li:not(:first-child) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.3rem;
+    font-size: .9rem;
+    padding: .8rem 1.6rem;
+    color: rgb(81, 81, 81);
+    cursor: pointer;
+  }
+  .menuContent li:hover:not(:first-child) {
+    background-color: #e2e8f0;
+  }
+  .menuContent li:first-child{
+    margin-bottom: .7rem;
+    margin-left: 1.5rem;
+    font-size: 1.15em ;
+    font-weight: 700;
+    color: black;
+    cursor:default;
+  }
+  .menuContent li img{
+    width:1.4rem;
+    height:1.4rem;
+    margin: 0 .4rem;
+    transform: translateY(20%);
+  }
+  .menuContent li i {
+    margin: .4rem;
+    font-size: 1.1rem;
+    color: rgba(106, 106, 106, 0.681);
+    transform: scale(.8);
+  }
+  .subMenuList{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    line-height: 1.3rem !important;
+    padding: 1.1rem 1.6rem;
+    color: rgb(81, 81, 81) !important;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.097);
+  }
+  .subMenuList:hover{
+    background-color: #e2e8f0;
+  }
+  .subMenuList i{
+    font-size: 1.1rem;
+    color: rgb(165, 165, 165) !important;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  /* ///////////////////dropDownMenu\\\\\\\\\\\\\\\\\\\\\\ */
+  .dropdownLanguage , .dropdownLogin {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    border-radius: .2rem;
+    padding: 1.1rem;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdownLogin {
+    height: 5rem !important;
+    text-align: center;
+    width: 25rem;
+    margin-left: -10rem;
+  }
+  
+  .signInButton {
+    text-decoration: none;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgb(148, 148, 148);
+  }
+  
+  .signInButton:hover {
+    background-color: #d6a923;
+    box-shadow: 3px 3px 8px rgb(148, 148, 148);
+  }
+
+  .dropdownLanguage{
+    height: 28rem !important;
+    width: 17rem;
+    gap: .3rem;
+    margin-right: 0rem !important;
+  }
+  .dropdownLanguage form{
+    padding-left: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: .4rem;
+  }
+  .dropdownLanguage form label{
+    display: flex;
+    gap: .5rem;
+  }
+
+  
+  .TopLanguageForm {
+    display: flex;
+    justify-content: start !important;
+    align-items: start;
+    gap: .3rem;
+    height: 3.5rem !important;
+    font-size: 12px;
+    padding: .4rem .4rem !important;
+    margin-bottom: 1.3rem;
+    color: #555;
+ }
+ .TopLanguageForm a:hover{
+   text-decoration: underline;
+ }
+ .BottomLanguageForm{
+  padding: 0  .4rem!important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .7rem ;
+ }
+ .BottomLanguageForm span{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.05rem;
+ }
+ .BottomLanguageForm img{
+  width: 2rem;
+  height: 1.8rem;
+ }
+ .BottomLanguageForm a{
+  padding-left: 2rem;
+ }
+ .BottomLanguageForm a:hover{
+   text-decoration: underline;
+ }
+  

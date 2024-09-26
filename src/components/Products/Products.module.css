@@ -1,0 +1,95 @@
+.Cards{
+    width: 19.5%;
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    cursor: pointer;
+}
+.Cards .Link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none !important;
+    color: black;
+}
+.imgCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+
+}
+.imgCard img{
+    width: 80%;
+    height: 100%;
+    padding: 1rem;
+}
+.bottomCard{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottomCard .Title{
+    display: block;
+    font-size: 1.4rem;
+    width: 100%;
+    padding: .3rem 0;
+    border-bottom: 2px solid rgba(131, 146, 153, 0.394);
+}
+.bottomCard .Price{
+    display: block;
+    margin: .7rem 0;
+}
+.bottomCard .Price .newPrice{
+    display: flex;
+    align-items: end;
+}
+.bottomCard .Price .lastPrice{
+    text-decoration:line-through;
+    font-size: .9rem;
+    color: rgba(128, 128, 128, 0.804);
+}
+.bottomCard .description{
+    width: 80%;
+    line-height: 1rem;
+    font-size: .9rem;
+    height: 3rem;
+    overflow: hidden;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    margin: .5rem 0 ;
+}
+.bottomCard .seeMore{
+    
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.bottomCard .seeMore:hover{
+    color: rgb(154, 0, 0);
+    transform: scale(1.01);
+}
+@media (max-width: 1470px) {
+    .Cards{
+        width: 23%;
+    }
+  }
+  @media (max-width: 1200px) {
+    .Cards{
+        width: 30%;
+    }
+  }
+  @media (max-width: 800px) {
+    .Cards{
+        width: 48%;
+    }
+  }
+  @media (max-width: 550px) {
+    .Cards{
+        width: 100%;
+    }
+  }

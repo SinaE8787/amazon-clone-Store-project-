@@ -1,0 +1,188 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "PlayStation 5 Slim",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/7f0c6c207a3c72b266fc96466ff2011b48bad06f_1703511082.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": false,
+      "price": "340",
+      "lastPrice": "360",
+      "offer": "5%",
+      "star": "32",
+      "Details": {
+        "brand": "sony",
+        "model": "Slim",
+        "size": "35x10x21",
+        "color": "white",
+        "digitalDetail": true,
+        "hard": "1TB",
+        "cpu": "zen2",
+        "ram": "16GB",
+        "graphic": "AMD"
+      },
+      "description": "PlayStation 5 Slim ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    },
+    {
+      "id": "2",
+      "name": "Laptop LOQ",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/56a2b9ede4d3c79f685c319d25734e84d18af0a5_1703067431.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": false,
+      "price": "700",
+      "lastPrice": "707",
+      "offer": "1%",
+      "star": "8",
+      "Details": {
+        "brand": "Lenovo",
+        "model": "LOQ 15IRX9",
+        "size": "15.6",
+        "color": "gray",
+        "digitalDetail": true,
+        "hard": "512GB",
+        "cpu": "Core i7 13650hx",
+        "ram": "16GB",
+        "graphic": "rtx 4060"
+      },
+      "description": "Laptop LOQ ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    },
+    {
+      "id": "3",
+      "name": "Series 9",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/4cceca7c016ad782aae57aa8fc8c63a7bc6e1fec_1699442513.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": false,
+      "price": "273",
+      "lastPrice": "300",
+      "offer": "9%",
+      "star": "140",
+      "Details": {
+        "brand": "Apple",
+        "model": "Series 9",
+        "size": "484×396q",
+        "color": "black",
+        "digitalDetail": true,
+        "hard": "64GB",
+        "cpu": "Apple s9",
+        "ram": "4GB",
+        "graphic": "not-have"
+      },
+      "description": "Series 9 ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    },
+    {
+      "id": "4",
+      "name": "iMac MK482",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/3207273.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": true,
+      "price": "",
+      "lastPrice": "",
+      "offer": "",
+      "star": "24",
+      "Details": {
+        "brand": "Apple",
+        "model": "MK482",
+        "size": "27",
+        "digitalDetail": true,
+        "color": "gray",
+        "hard": "1TB",
+        "cpu": "Core i5",
+        "ram": "8GB",
+        "graphic": "AMD Radeon R9"
+      },
+      "description": "iMac MK482 ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    },
+    {
+      "id": "5",
+      "name": "PC FSG-Full2",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/f4fac497b27537034157b5e53a3ab12b6a5b140c_1684922206.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": false,
+      "price": "8666",
+      "lastPrice": "8750",
+      "offer": "5%",
+      "star": "2",
+      "Details": {
+        "brand": "FATER",
+        "model": "FSG-Full2",
+        "size": "500×500× 1500",
+        "color": "white",
+        "digitalDetail": true,
+        "hard": "5TB",
+        "cpu": "Core i9 13900k",
+        "ram": "128GB",
+        "graphic": "RTX 4090 GDDR6X"
+      },
+      "description": "PC ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    },
+    {
+      "id": "6",
+      "name": "mousepad A4108",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/328f837da2bcf32193c9623f7c497370e8307ed9_1649414877.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": false,
+      "price": "1",
+      "lastPrice": "",
+      "offer": "",
+      "star": "24569",
+      "Details": {
+        "brand": "Valve",
+        "model": "Dota",
+        "size": "190x260",
+        "color": "AZ HAME RANGE",
+        "digitalDetail": false,
+        "hard": "",
+        "cpu": "",
+        "ram": "",
+        "graphic": ""
+      },
+      "description": "mousepad ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    },
+    {
+      "id": "7",
+      "name": "NOKIA G21 TA-1418",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/321452060d25c5f0eab32482cd4589ae2546013b_1656422450.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": false,
+      "price": "46",
+      "lastPrice": "64",
+      "offer": "26%",
+      "star": "518",
+      "Details": {
+        "brand": "Nokia",
+        "model": "G21 TA-1418",
+        "size": "5.1",
+        "color": "dark blue",
+        "digitalDetail": true,
+        "hard": "128GB",
+        "cpu": "Unisoc T606",
+        "ram": "6GB",
+        "graphic": "Mali-G57 MP1 GPU"
+      },
+      "description": "NOKIA ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    },
+    {
+      "id": "8",
+      "name": "DSL-G2452DGME",
+      "imgUrl": "https://dkstatics-public.digikala.com/digikala-products/a2a06bc65cc34554ef7d52cbd9be80748d48fdbb_1647164226.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90",
+      "nonExistenT": false,
+      "price": "100",
+      "lastPrice": "102",
+      "offer": "1%",
+      "star": "1",
+      "Details": {
+        "brand": "D-link",
+        "model": "DSL-R45432",
+        "size": "5.1",
+        "color": "black",
+        "digitalDetail": false,
+        "hard": "",
+        "cpu": "",
+        "ram": "",
+        "graphic": ""
+      },
+      "description": "DSL-G2452DGME ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!"
+    }
+  ],
+  "Users": [
+    {
+      "id": "1",
+      "username": "johnny",
+      "email": "jc3452020@gmail.com",
+      "password": "12345678"
+    }
+  ]
+}

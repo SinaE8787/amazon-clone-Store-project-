@@ -1,0 +1,72 @@
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.samecolor{
+  color: rgb(0 113 133);
+  cursor: pointer;
+  text-decoration: none;
+}
+.samecolor:hover{
+  color: rgb(220, 27, 27);
+}
+.inStock{
+  color: green;
+  padding-bottom: .5rem;
+  font-weight: normal ;
+}
+
+
+.Container{
+  width: 100%;
+  min-height: 28rem;
+}
+
+
+
+
+/* //////////////swiper\\\\\\\\\\\\\\ */
+.swiper-button-prev , .swiper-button-next{
+  width: 4rem;
+  height: 13.2rem;
+  top: 3% !important;
+  color: black;
+  cursor: pointer;
+}
+.swiper-button-next:active , .swiper-button-prev:active{
+  border: 4px solid rgb(0, 74, 48);
+  border-radius: .4rem;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 615px;
+  position: relative;
+}
+
+.mySwiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 180px; 
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(212, 212, 212, 0.849) 50%);
+  pointer-events: none; 
+  z-index: 10;
+}
