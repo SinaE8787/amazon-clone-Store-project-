@@ -23,7 +23,9 @@ const GetProducts = ({ children }) => {
 
   const getProduct = async () => {
     try {
-      const fetchProducts = await fetch(`http://localhost:3000/product`);
+      const fetchProducts = await fetch(
+        `https://amazondata-8al0.onrender.com/product`
+      );
       const response = await fetchProducts.json();
       setcardsData(response);
     } finally {
@@ -32,7 +34,7 @@ const GetProducts = ({ children }) => {
   const getUsers = async () => {
     try {
       const users = axios
-        .get(`http://localhost:3000/Users`)
+        .get(`https://amazondata-8al0.onrender.com/Users`)
         .then((response) => setUsers(response?.data));
     } finally {
     }
