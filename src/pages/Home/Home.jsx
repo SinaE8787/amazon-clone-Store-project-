@@ -5,7 +5,6 @@ import Products from "../../components/Products/Products";
 import { SwiperBox } from "../../components/UI/Swiper/SwiperBox";
 const Home = () => {
   const { cardsData, Search } = useContext(ProductsProvider);
-
   return (
     <div className={Mstyles.Main}>
       <div className={Mstyles.swiper}>
@@ -18,13 +17,18 @@ const Home = () => {
           <a className="samecolor">amazon.de</a>
         </div>
         <div className={Mstyles.productMenu}>
-          {cardsData
-            ?.filter((item) => {
-              return Search == "" ? item : item.name.includes(Search);
-            })
-            .map((data) => (
-              <Products key={data.id} {...data} />
-            ))}
+          {cardsData ? (
+            cardsData
+              ?.filter((item) => {
+                return Search == "" ? item : item.name.includes(Search);
+              })
+              .map((data) => <Products key={data.id} {...data} />)
+          ) : (
+            <div className={Mstyles.loading}>
+              {" "}
+              please wait to fetch data . . . that take a few second
+            </div>
+          )}
         </div>
       </div>
     </div>
